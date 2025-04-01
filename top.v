@@ -3,7 +3,7 @@ module top (
     input btnC,
     output [5:0] led 
 
-)
+);
 
 // D flip flop.
     d_ff dff_inst (

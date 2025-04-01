@@ -12,7 +12,8 @@ module d_ff(
 
     always @(posedge clk) begin
         q <= d;
+        notq <= ~d;
     end
-    assign notq = ~q;
+    // assign notq = ~q;
     
 endmodule
